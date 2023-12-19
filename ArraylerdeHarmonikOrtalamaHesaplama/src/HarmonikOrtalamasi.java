@@ -14,9 +14,9 @@ public class HarmonikOrtalamasi {
 
         harmonikOrtalama = list.length / harmonikseri;
 
-        System.out.println("List Array'inin Harmonik Serisi : " + harmonikseri);
+        System.out.println("Array'in Harmonik Serisi : " + harmonikseri);
         System.out.println("------------------");
-        System.out.println("List Array'inin Harmonik Ortalaması : " + harmonikOrtalama);
+        System.out.println("Array'in Harmonik Ortalaması : " + harmonikOrtalama);
         System.out.println("==================");
 
     }
