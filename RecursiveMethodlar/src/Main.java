@@ -10,6 +10,10 @@ public class Main {
         int result = sum(n - 1) + n;
         return result;
     }
+    static int sum(int a,int b) {
+
+        return a+b;
+    }
 
     //Faktöriyel
     static int fact(int n) {
@@ -31,7 +35,7 @@ public class Main {
     }
 
     static int fibo(int a) {
-        if (a == 1 || a == 2) {
+        if (a == 1 || a == 2) {                              
             return 1;
         }
         return fibo(a - 1) + fibo(a - 2);
@@ -43,5 +47,6 @@ public class Main {
         System.out.println(fact(5));
         System.out.println(power(5,2));
         System.out.println(fibo(30));
+        System.out.println(sum(5,10));
     }
 }
