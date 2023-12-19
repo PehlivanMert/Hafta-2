@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -90,7 +91,7 @@ public class Main {
 
         //Harmonik Serisi
 
-        int[] list = {3,1,2,15,23,55};
+       /* int[] list = {3,1,2,15,23,55};
 
         double harmonikseri = 0.0;
 
@@ -101,5 +102,24 @@ public class Main {
 
         System.out.println("List Array'inin Harmonik Serisi : " + harmonikseri);
         System.out.println("List Array'inin Harmonik Ortalaması : " + harmonikOrtalamasi);
+        */
+
+
+        int[] list = {56, 34, 1, 8, 101, -2, -33};
+
+        int min = list[0];
+        int max = list[0];
+
+        for (int i : list) {
+            if (i < min) {
+                min = i;
+            }
+            if (i > max) {
+                max = i;
+            }
+        }
+
+        System.out.println("Minimum Değer " + min);
+        System.out.println("Maximum Değer " + max);
     }
 }
