@@ -9,7 +9,7 @@ public class BirKucukBirBuyuk {
 
         Arrays.sort(list);
         System.out.println(" ");
-        System.out.println("Arrayinizin büyükten küçüğe sıralanmış hali: " + Arrays.toString(list));
+        System.out.println("Arrayinizin küçükten büyüğe sıralanmış hali: " + Arrays.toString(list));
 
         boolean isFound = false;
 
