@@ -4,8 +4,8 @@ public class Main {
         int[] arr = {27, 10, 22, 94, 75, 48, 36, 54, 10, 35, 27, 122, 94, 48, 90, 90, 48, 35,10};
         int[] freq = new int[123]; // Frekansları saklamak için bir dizi oluşturuyorum. Dizideki en büyük eleman 122 olduğu için boyutu 123 seçiyorum.
 
-        for (int value : arr) { // Dizideki her eleman için
-            freq[value]++; // Frekans dizisinin ilgili indeksini bir artırıyorum.
+        for (int value : arr) {    // Dizideki her eleman için
+            freq[value]++;         // Frekans dizisinin ilgili indeksini bir artırıyorum.
         }
 
         System.out.println("Element | Frequency"); // Element ve frekans başlıklarını yazdırıyorum
