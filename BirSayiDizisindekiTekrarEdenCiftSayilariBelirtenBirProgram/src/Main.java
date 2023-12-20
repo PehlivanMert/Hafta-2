@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class Main {
     static boolean isFind(int[] array, int value) {
         for (int i : array) {
