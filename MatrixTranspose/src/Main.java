@@ -22,11 +22,11 @@ public class Main {
 
         // Matrisleri ekrana yazdırmak için iki tane iç içe for döngüsü daha kullanıyoruz.
         System.out.println("Matris:");
-        for (int[] ints : matrix) {
+        for (int[] inds : matrix) {
             for (int j = 0; j < column; j++) {
 
                 // Matrisin i. satır ve j. sütunundaki elemanı yazdırıyoruz.
-                System.out.print(ints[j] + " ");
+                System.out.print(inds[j] + " ");
             }
             // Satır bittikten sonra bir alt satıra geçiyoruz.
             System.out.println();
