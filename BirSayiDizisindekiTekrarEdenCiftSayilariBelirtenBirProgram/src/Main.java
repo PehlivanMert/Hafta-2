@@ -11,7 +11,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int[] arr = {27, 10, 22, 94, 75, 48, 36, 54, 10, 35, 27, 122, 94, 48, 90, 90, 48, 35};
+        int[] arr = {27, 10, 22, 94, 75, 43, 36, 54, 10, 35, 27, 122, 94, 48, 90, 90, 48, 35};
         int[] duplicate = new int[arr.length];
         int startIndex = 0;
         for (int i = 0; i < arr.length; i++) {
