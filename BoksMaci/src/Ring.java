@@ -37,7 +37,7 @@ public class Ring {
                     break;
                 }
 
-                isFirstAttackerf1 = !isFirstAttackerf1;
+
 
                 System.out.println(this.f1.name + "'ın" + " Canı: " + this.f1.health);
                 System.out.println(this.f2.name + "'ın" + " Canı: " + this.f2.health);
